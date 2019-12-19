@@ -147,7 +147,7 @@ jobs:
           EOF
 
           # 常用LuCI插件选择:
-          # cat >> .config <<EOF
+          cat >> .config <<EOF
           CONFIG_PACKAGE_luci-app-accesscontrol=y
           CONFIG_PACKAGE_luci-app-adblock=y
           CONFIG_PACKAGE_luci-app-adbyby-plus=y
