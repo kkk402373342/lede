@@ -170,7 +170,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-ntpc=y 
           CONFIG_PACKAGE_luci-app-p910nd=y
           CONFIG_PACKAGE_luci-app-pppoe-relay=y
-          CONFIG_PACKAGE_luci-app-p p t p-server=y
+          CONFIG_PACKAGE_luci-app-pptp-server=y
           CONFIG_PACKAGE_luci-app-privoxy=y
           CONFIG_PACKAGE_luci-app-qos=y
           CONFIG_PACKAGE_luci-app-radicale=y
@@ -199,7 +199,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-webadmin=y
           CONFIG_PACKAGE_luci-app-wol=y
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
-          CONFIG_PACKAGE_luci-app-koolproxyR=y
           EOF
 
           # LuCI主题:
